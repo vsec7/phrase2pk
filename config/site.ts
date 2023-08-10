@@ -3,14 +3,14 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Mnemonic2Pk",
   description:
-    "Converter Seed Pharse / Mnemonic to Private Key.",
+    "Seed Pharse / Mnemonic to Private Key Converter Tool.",
   mainNav: [
     {
       title: "Home",
       href: "/",
     },
     {
-      title: "Source Code",
+      title: "Source",
       href: "https://github.com/vsec7/phrase2pk",
     },
     {
