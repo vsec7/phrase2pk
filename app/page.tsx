@@ -74,7 +74,7 @@ export default function Home() {
 
               <div className="mt-4 w-full">
                 <CopyToClipboard text={`Address: ${addr}\nPrivateKey: ${pk}`}>   
-                  <Button variant="outline" className="flex flex-row" onClick={() => { toast({ variant:"destructive", description: "Address Copied" }) }}>
+                  <Button variant="outline" className="flex flex-row" onClick={() => { toast({ variant:"destructive", description: "All Copied" }) }}>
                     <Icons.copy className="h-5 w-5" /> <span className="ml-3">Copy All</span>
                   </Button>
                 </CopyToClipboard>
